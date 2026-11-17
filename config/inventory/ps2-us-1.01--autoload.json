@@ -1,0 +1,127 @@
+{
+ "schema": "rez-function-inventory/1",
+ "build": "ps2-us-1.01--autoload",
+ "functions": [
+  {
+   "address": "0x00ca0700",
+   "size": 52,
+   "name": "first_warning_load",
+   "status": "matching",
+   "source_file": "src/overlays/autoload/autoload.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0738",
+   "size": 8,
+   "name": "first_warning_unload",
+   "status": "matching",
+   "source_file": "src/overlays/autoload/autoload.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0740",
+   "size": 24,
+   "name": "warning_is_skipped",
+   "status": "matching",
+   "source_file": "src/overlays/autoload/autoload.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0758",
+   "size": 64,
+   "name": "autoload_init",
+   "status": "matching",
+   "source_file": "src/overlays/autoload/autoload.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0798",
+   "size": 76,
+   "name": "autoload_release",
+   "status": "matching",
+   "source_file": "src/overlays/autoload/autoload.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca07e8",
+   "size": 496,
+   "name": "autoload_exec_warning",
+   "status": "matching",
+   "source_file": "src/overlays/autoload/autoload.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca09d8",
+   "size": 244,
+   "name": "autoload_exec_save_off",
+   "status": "matching",
+   "source_file": "src/overlays/autoload/autoload.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0ad0",
+   "size": 1916,
+   "name": "autoload_exec_create",
+   "status": "matching",
+   "source_file": "src/overlays/autoload/autoload.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1250",
+   "size": 1168,
+   "name": "autoload_exec",
+   "status": "matching",
+   "source_file": "src/overlays/autoload/autoload.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca16e0",
+   "size": 356,
+   "name": "autoload_disp",
+   "status": "matching",
+   "source_file": "src/overlays/autoload/autoload.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1848",
+   "size": 36,
+   "name": "autoload_create",
+   "status": "matching",
+   "source_file": "src/overlays/autoload/autoload.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  }
+ ]
+}

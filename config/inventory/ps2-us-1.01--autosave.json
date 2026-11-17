@@ -1,0 +1,83 @@
+{
+ "schema": "rez-function-inventory/1",
+ "build": "ps2-us-1.01--autosave",
+ "functions": [
+  {
+   "address": "0x00ca0700",
+   "size": 168,
+   "name": "as_root_init",
+   "status": "matching",
+   "source_file": "src/overlays/autosave/autosave.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca07a8",
+   "size": 188,
+   "name": "as_root_release",
+   "status": "matching",
+   "source_file": "src/overlays/autosave/autosave.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0868",
+   "size": 404,
+   "name": "as_root_exec_check",
+   "status": "matching",
+   "source_file": "src/overlays/autosave/autosave.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0a00",
+   "size": 228,
+   "name": "as_root_exec_save_off",
+   "status": "matching",
+   "source_file": "src/overlays/autosave/autosave.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0ae8",
+   "size": 2600,
+   "name": "as_root_exec",
+   "status": "matching",
+   "source_file": "src/overlays/autosave/autosave.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1510",
+   "size": 8,
+   "name": "as_root_disp",
+   "status": "matching",
+   "source_file": "src/overlays/autosave/autosave.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1518",
+   "size": 36,
+   "name": "as_root_create",
+   "status": "matching",
+   "source_file": "src/overlays/autosave/autosave.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  }
+ ]
+}

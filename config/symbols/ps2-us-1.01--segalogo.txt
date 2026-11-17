@@ -1,0 +1,12 @@
+tex_rect_draw = 0x0017E0D0;
+segalogo_init = 0x00AF6700;
+segalogo_release = 0x00AF67A8;
+segalogo_exec = 0x00AF67B0;
+segalogo_disp = 0x00AF69C8;
+segalogo_create = 0x00AF6B18;
+logo_draw_screen = 0x00AF6B40;
+logo_draw_quad = 0x00AF6B50;
+logo_draw = 0x00AF6C00;
+logo_textures = 0x00AF6C80;
+logo_table = 0x00B57F80;
+segalogo_desc = 0x00B57FC0;

@@ -1,0 +1,130 @@
+{
+ "schema": "rez-compilers/1",
+ "candidates": [
+  {
+   "id": "ee-gcc2.9-991111-01",
+   "platform": "ps2",
+   "command": [
+    "{tools}/ps2/ee-gcc2.9-991111-01/bin/ee-gcc",
+    "-B{tools}/ps2/ee-gcc2.9-991111-01/lib/gcc-lib/ee/2.9-ee-991111-01/",
+    "-B{tools}/ps2/ee-gcc2.9-991111-01/ee/bin/",
+    "-c"
+   ],
+   "flag_sets": [
+    "-O2 -G0",
+    "-O2 -G8",
+    "-O1 -G0",
+    "-O3 -G0",
+    "-O0 -G0"
+   ]
+  },
+  {
+   "id": "ee-gcc2.9-991111-01+as2.10",
+   "platform": "ps2",
+   "command": [
+    "{tools}/ps2/ee-gcc2.9-991111-01/bin/ee-gcc",
+    "-B{tools}/ps2/ee-gcc2.9-991111-01/lib/gcc-lib/ee/2.9-ee-991111-01/",
+    "-B{tools}/ps2/ee-gcc2.96/ee/bin/",
+    "-c"
+   ],
+   "flag_sets": [
+    "-O2 -G0"
+   ]
+  },
+  {
+   "id": "ee-gcc2.9-991111-01+asdtls",
+   "platform": "ps2",
+   "command": [
+    "{tools}/ps2/ee-gcc2.9-991111-01/bin/ee-gcc",
+    "-B{tools}/ps2/ee-gcc2.9-991111-01/lib/gcc-lib/ee/2.9-ee-991111-01/",
+    "-B{tools}/ps2/ee-gcc2.9-991111-01-dtls13010/ee/bin/",
+    "-c"
+   ],
+   "flag_sets": [
+    "-O2 -G0"
+   ]
+  },
+  {
+   "id": "ee-gcc2.9-990721",
+   "platform": "ps2",
+   "command": [
+    "{tools}/ps2/ee-gcc2.9-990721/bin/ee-gcc",
+    "-B{tools}/ps2/ee-gcc2.9-990721/lib/gcc-lib/ee/2.9-ee-990721/",
+    "-B{tools}/ps2/ee-gcc2.9-990721/ee/bin/",
+    "-c"
+   ],
+   "flag_sets": [
+    "-O2 -G0",
+    "-O2 -G8",
+    "-O1 -G0",
+    "-O3 -G0"
+   ]
+  },
+  {
+   "id": "ee-gcc2.9-991111",
+   "platform": "ps2",
+   "command": [
+    "{tools}/ps2/ee-gcc2.9-991111/bin/ee-gcc",
+    "-B{tools}/ps2/ee-gcc2.9-991111/lib/gcc-lib/ee/2.9-ee-991111/",
+    "-B{tools}/ps2/ee-gcc2.9-991111/ee/bin/",
+    "-c"
+   ],
+   "flag_sets": [
+    "-O2 -G0",
+    "-O2 -G8",
+    "-O1 -G0",
+    "-O3 -G0"
+   ]
+  },
+  {
+   "id": "ee-gcc2.9-991111a",
+   "platform": "ps2",
+   "command": [
+    "{tools}/ps2/ee-gcc2.9-991111a/bin/ee-gcc",
+    "-B{tools}/ps2/ee-gcc2.9-991111a/lib/gcc-lib/ee/2.9-ee-991111-01/",
+    "-B{tools}/ps2/ee-gcc2.9-991111a/ee/bin/",
+    "-c"
+   ],
+   "flag_sets": [
+    "-O2 -G0",
+    "-O2 -G8",
+    "-O1 -G0",
+    "-O3 -G0"
+   ]
+  },
+  {
+   "id": "ee-gcc2.96",
+   "platform": "ps2",
+   "command": [
+    "{tools}/ps2/ee-gcc2.96/bin/ee-gcc",
+    "-B{tools}/ps2/ee-gcc2.96/lib/gcc-lib/ee/2.96-ee-001003-1/",
+    "-B{tools}/ps2/ee-gcc2.96/ee/bin/",
+    "-c"
+   ],
+   "flag_sets": [
+    "-O2 -G0",
+    "-O2 -G8",
+    "-O1 -G0",
+    "-O3 -G0"
+   ]
+  },
+  {
+   "id": "host-mipsel-gcc (control)",
+   "platform": "ps2",
+   "command": [
+    "mipsel-linux-gnu-gcc",
+    "-c",
+    "-march=mips3",
+    "-mabi=32",
+    "-mno-abicalls",
+    "-fno-pic",
+    "-ffreestanding",
+    "-fno-builtin",
+    "-std=gnu89"
+   ],
+   "flag_sets": [
+    "-O2"
+   ]
+  }
+ ]
+}

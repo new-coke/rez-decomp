@@ -1,0 +1,61 @@
+{
+ "schema": "rez-function-inventory/1",
+ "build": "ps2-us-1.01--wire",
+ "functions": [
+  {
+   "address": "0x00af6700",
+   "size": 148,
+   "name": "wire_init",
+   "status": "matching",
+   "source_file": "src/overlays/wire/wire.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af6798",
+   "size": 8,
+   "name": "wire_release",
+   "status": "matching",
+   "source_file": "src/overlays/wire/wire.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af67a0",
+   "size": 352,
+   "name": "wire_exec",
+   "status": "matching",
+   "source_file": "src/overlays/wire/wire.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af6900",
+   "size": 56,
+   "name": "wire_disp",
+   "status": "matching",
+   "source_file": "src/overlays/wire/wire.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af6938",
+   "size": 36,
+   "name": "wire_create",
+   "status": "matching",
+   "source_file": "src/overlays/wire/wire.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  }
+ ]
+}

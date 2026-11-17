@@ -1,0 +1,138 @@
+{
+ "schema": "rez-function-inventory/1",
+ "build": "ps2-us-1.01--travel",
+ "functions": [
+  {
+   "address": "0x00ca0700",
+   "size": 28,
+   "name": "module_entry",
+   "status": "matching",
+   "source_file": "src/overlays/travel/travel.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0720",
+   "size": 52,
+   "name": "travel_load",
+   "status": "matching",
+   "source_file": "src/overlays/travel/travel.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0758",
+   "size": 8,
+   "name": "travel_unload",
+   "status": "matching",
+   "source_file": "src/overlays/travel/travel.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0760",
+   "size": 384,
+   "name": "travel_draw_credits",
+   "status": "matching",
+   "source_file": "src/overlays/travel/travel.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca08e0",
+   "size": 404,
+   "name": "travel_draw_area",
+   "status": "matching",
+   "source_file": "src/overlays/travel/travel.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0a78",
+   "size": 204,
+   "name": "travel_draw_title",
+   "status": "matching",
+   "source_file": "src/overlays/travel/travel.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0b48",
+   "size": 216,
+   "name": "travel_draw_caption",
+   "status": "matching",
+   "source_file": "src/overlays/travel/travel.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0c20",
+   "size": 200,
+   "name": "travel_init",
+   "status": "matching",
+   "source_file": "src/overlays/travel/travel.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0ce8",
+   "size": 80,
+   "name": "travel_release",
+   "status": "matching",
+   "source_file": "src/overlays/travel/travel.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0d38",
+   "size": 848,
+   "name": "travel_exec",
+   "status": "matching",
+   "source_file": "src/overlays/travel/travel.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1088",
+   "size": 220,
+   "name": "travel_disp",
+   "status": "matching",
+   "source_file": "src/overlays/travel/travel.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1168",
+   "size": 36,
+   "name": "travel_create",
+   "status": "matching",
+   "source_file": "src/overlays/travel/travel.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  }
+ ]
+}

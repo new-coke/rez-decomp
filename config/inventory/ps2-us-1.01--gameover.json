@@ -1,0 +1,72 @@
+{
+ "schema": "rez-function-inventory/1",
+ "build": "ps2-us-1.01--gameover",
+ "functions": [
+  {
+   "address": "0x00af6700",
+   "size": 28,
+   "name": "module_entry",
+   "status": "matching",
+   "source_file": "src/overlays/gameover/gameover.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af6720",
+   "size": 132,
+   "name": "gameover_init",
+   "status": "matching",
+   "source_file": "src/overlays/gameover/gameover.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01+as2.10",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af67a8",
+   "size": 8,
+   "name": "gameover_release",
+   "status": "matching",
+   "source_file": "src/overlays/gameover/gameover.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af67b0",
+   "size": 344,
+   "name": "gameover_exec",
+   "status": "matching",
+   "source_file": "src/overlays/gameover/gameover.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af6908",
+   "size": 728,
+   "name": "gameover_disp",
+   "status": "matching",
+   "source_file": "src/overlays/gameover/gameover.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01+asdtls",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af6be0",
+   "size": 36,
+   "name": "gameover_create",
+   "status": "matching",
+   "source_file": "src/overlays/gameover/gameover.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  }
+ ]
+}

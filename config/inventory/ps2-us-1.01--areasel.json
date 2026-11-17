@@ -1,0 +1,336 @@
+{
+ "schema": "rez-function-inventory/1",
+ "build": "ps2-us-1.01--areasel",
+ "functions": [
+  {
+   "address": "0x00ca0700",
+   "size": 200,
+   "name": "as_bg_preload_lights",
+   "status": "matching",
+   "source_file": "src/overlays/areasel/as_bg.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca07c8",
+   "size": 268,
+   "name": "as_bg_parts_create",
+   "status": "matching",
+   "source_file": "src/overlays/areasel/as_bg.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca08d8",
+   "size": 80,
+   "name": "as_bg_parts_release",
+   "status": "matching",
+   "source_file": "src/overlays/areasel/as_bg.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0928",
+   "size": 228,
+   "name": "as_bg_node_cb",
+   "status": "matching",
+   "source_file": "src/overlays/areasel/as_bg.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0a10",
+   "size": 204,
+   "name": "as_bg_init",
+   "status": "matching",
+   "source_file": "src/overlays/areasel/as_bg.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0ae0",
+   "size": 68,
+   "name": "as_bg_release",
+   "status": "matching",
+   "source_file": "src/overlays/areasel/as_bg.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0b28",
+   "size": 284,
+   "name": "as_bg_exec",
+   "status": "matching",
+   "source_file": "src/overlays/areasel/as_bg.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0c48",
+   "size": 1756,
+   "name": "as_bg_disp",
+   "status": "matching",
+   "source_file": "src/overlays/areasel/as_bg.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1328",
+   "size": 40,
+   "name": "as_bg_create",
+   "status": "matching",
+   "source_file": "src/overlays/areasel/as_bg.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1350",
+   "size": 8,
+   "name": "as_bg_set_area",
+   "status": "matching",
+   "source_file": "src/overlays/areasel/as_bg.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1358",
+   "size": 8,
+   "name": "demo_camera_node_init",
+   "status": "matching",
+   "source_file": "src/overlays/common/demo_camera.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US -DOVERLAY_AREASEL"
+   }
+  },
+  {
+   "address": "0x00ca1360",
+   "size": 84,
+   "name": "demo_camera_node_update",
+   "status": "matching",
+   "source_file": "src/overlays/common/demo_camera.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01+as2.10",
+    "flags": "-O2 -G0 -DVERSION_US -DOVERLAY_AREASEL"
+   }
+  },
+  {
+   "address": "0x00ca13b8",
+   "size": 8,
+   "name": "demo_camera_node_release",
+   "status": "matching",
+   "source_file": "src/overlays/common/demo_camera.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US -DOVERLAY_AREASEL"
+   }
+  },
+  {
+   "address": "0x00ca13c0",
+   "size": 260,
+   "name": "demo_camera_init",
+   "status": "matching",
+   "source_file": "src/overlays/common/demo_camera.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US -DOVERLAY_AREASEL"
+   }
+  },
+  {
+   "address": "0x00ca14c8",
+   "size": 8,
+   "name": "demo_camera_release",
+   "status": "matching",
+   "source_file": "src/overlays/common/demo_camera.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US -DOVERLAY_AREASEL"
+   }
+  },
+  {
+   "address": "0x00ca14d0",
+   "size": 108,
+   "name": "demo_camera_exec",
+   "status": "matching",
+   "source_file": "src/overlays/common/demo_camera.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US -DOVERLAY_AREASEL"
+   }
+  },
+  {
+   "address": "0x00ca1540",
+   "size": 8,
+   "name": "demo_camera_disp",
+   "status": "matching",
+   "source_file": "src/overlays/common/demo_camera.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US -DOVERLAY_AREASEL"
+   }
+  },
+  {
+   "address": "0x00ca1548",
+   "size": 36,
+   "name": "demo_camera_create",
+   "status": "matching",
+   "source_file": "src/overlays/common/demo_camera.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US -DOVERLAY_AREASEL"
+   }
+  },
+  {
+   "address": "0x00ca1570",
+   "size": 16,
+   "name": "demo_camera_play",
+   "status": "matching",
+   "source_file": "src/overlays/common/demo_camera.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US -DOVERLAY_AREASEL"
+   }
+  },
+  {
+   "address": "0x00ca1580",
+   "size": 8,
+   "name": "demo_camera_is_done",
+   "status": "matching",
+   "source_file": "src/overlays/common/demo_camera.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US -DOVERLAY_AREASEL"
+   }
+  },
+  {
+   "address": "0x00ca1588",
+   "size": 16,
+   "name": "demo_camera_get_remaining",
+   "status": "matching",
+   "source_file": "src/overlays/common/demo_camera.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US -DOVERLAY_AREASEL"
+   }
+  },
+  {
+   "address": "0x00ca1598",
+   "size": 28,
+   "name": "module_entry",
+   "status": "matching",
+   "source_file": "src/overlays/areasel/area_select.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca15b8",
+   "size": 68,
+   "name": "area_select_load",
+   "status": "matching",
+   "source_file": "src/overlays/areasel/area_select.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1600",
+   "size": 44,
+   "name": "area_select_unload",
+   "status": "matching",
+   "source_file": "src/overlays/areasel/area_select.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1630",
+   "size": 160,
+   "name": "area_select_init",
+   "status": "matching",
+   "source_file": "src/overlays/areasel/area_select.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca16d0",
+   "size": 80,
+   "name": "area_select_release",
+   "status": "matching",
+   "source_file": "src/overlays/areasel/area_select.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1720",
+   "size": 1156,
+   "name": "area_select_exec",
+   "status": "matching",
+   "source_file": "src/overlays/areasel/area_select.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1ba8",
+   "size": 276,
+   "name": "area_select_disp",
+   "status": "matching",
+   "source_file": "src/overlays/areasel/area_select.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1cc0",
+   "size": 36,
+   "name": "area_select_create",
+   "status": "matching",
+   "source_file": "src/overlays/areasel/area_select.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1ce8",
+   "size": 268,
+   "name": "area_select_draw_sprite",
+   "status": "matching",
+   "source_file": "src/overlays/areasel/area_select.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "schema": "rez-function-inventory/1",
+ "build": "ps2-us-1.01--segalogo",
+ "functions": [
+  {
+   "address": "0x00af6700",
+   "size": 168,
+   "name": "segalogo_init",
+   "status": "matching",
+   "source_file": "src/overlays/segalogo/segalogo.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af67a8",
+   "size": 8,
+   "name": "segalogo_release",
+   "status": "matching",
+   "source_file": "src/overlays/segalogo/segalogo.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af67b0",
+   "size": 536,
+   "name": "segalogo_exec",
+   "status": "matching",
+   "source_file": "src/overlays/segalogo/segalogo.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af69c8",
+   "size": 336,
+   "name": "segalogo_disp",
+   "status": "matching",
+   "source_file": "src/overlays/segalogo/segalogo.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af6b18",
+   "size": 36,
+   "name": "segalogo_create",
+   "status": "matching",
+   "source_file": "src/overlays/segalogo/segalogo.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af6b40",
+   "size": 12,
+   "name": "logo_draw_screen",
+   "status": "matching",
+   "source_file": "src/overlays/segalogo/segalogo.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af6b50",
+   "size": 172,
+   "name": "logo_draw_quad",
+   "status": "matching",
+   "source_file": "src/overlays/segalogo/segalogo.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af6c00",
+   "size": 68,
+   "name": "logo_draw",
+   "status": "matching",
+   "source_file": "src/overlays/segalogo/segalogo.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  }
+ ]
+}

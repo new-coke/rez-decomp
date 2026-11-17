@@ -1,0 +1,996 @@
+{
+ "schema": "rez-function-inventory/1",
+ "build": "ps2-us-1.01--extra",
+ "functions": [
+  {
+   "address": "0x00ca0700",
+   "size": 124,
+   "name": "ex_explain_draw_strip",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_explain.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0780",
+   "size": 8,
+   "name": "ex_explain_init",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_explain.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0788",
+   "size": 8,
+   "name": "ex_explain_release",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_explain.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0790",
+   "size": 8,
+   "name": "ex_explain_exec",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_explain.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0798",
+   "size": 576,
+   "name": "ex_explain_disp",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_explain.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca09d8",
+   "size": 36,
+   "name": "ex_explain_create",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_explain.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0a00",
+   "size": 16,
+   "name": "ex_explain_set",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_explain.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0a10",
+   "size": 144,
+   "name": "ex_menu_adjust_setting",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0aa0",
+   "size": 140,
+   "name": "ex_menu_draw_value_box",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0b30",
+   "size": 224,
+   "name": "ex_menu_draw_new_mark",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0c10",
+   "size": 384,
+   "name": "ex_menu_draw_setting",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0d90",
+   "size": 176,
+   "name": "beyond_mode_count",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0e40",
+   "size": 200,
+   "name": "beyond_options_count",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0f08",
+   "size": 244,
+   "name": "beyond_mode_draw",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1000",
+   "size": 24,
+   "name": "beyond_mode_select",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1018",
+   "size": 48,
+   "name": "beyond_mode_marked",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1048",
+   "size": 44,
+   "name": "beyond_mode_enabled",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1078",
+   "size": 244,
+   "name": "beyond_options_draw",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1170",
+   "size": 24,
+   "name": "beyond_options_select",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1188",
+   "size": 48,
+   "name": "beyond_options_marked",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca11b8",
+   "size": 44,
+   "name": "beyond_options_enabled",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca11e8",
+   "size": 40,
+   "name": "return_select",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1210",
+   "size": 48,
+   "name": "direct_assault_adjust",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1240",
+   "size": 532,
+   "name": "direct_assault_draw",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1458",
+   "size": 68,
+   "name": "direct_assault_select",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca14a0",
+   "size": 52,
+   "name": "direct_assault_marked",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca14d8",
+   "size": 32,
+   "name": "direct_assault_enabled",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca14f8",
+   "size": 36,
+   "name": "direct_assault_commit",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1520",
+   "size": 336,
+   "name": "lost_area_draw",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1670",
+   "size": 72,
+   "name": "lost_area_select",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca16b8",
+   "size": 52,
+   "name": "lost_area_marked",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca16f0",
+   "size": 32,
+   "name": "lost_area_enabled",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1710",
+   "size": 36,
+   "name": "lost_area_commit",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1738",
+   "size": 336,
+   "name": "trance_mission_draw",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1888",
+   "size": 72,
+   "name": "trance_mission_select",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca18d0",
+   "size": 52,
+   "name": "trance_mission_marked",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1908",
+   "size": 32,
+   "name": "trance_mission_enabled",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1928",
+   "size": 36,
+   "name": "trance_mission_commit",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1950",
+   "size": 72,
+   "name": "boss_rush_select",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1998",
+   "size": 52,
+   "name": "boss_rush_marked",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca19d0",
+   "size": 32,
+   "name": "boss_rush_enabled",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca19f0",
+   "size": 36,
+   "name": "boss_rush_commit",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1a18",
+   "size": 48,
+   "name": "player_select_adjust",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1a48",
+   "size": 32,
+   "name": "player_select_draw",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1a68",
+   "size": 52,
+   "name": "player_select_marked",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1aa0",
+   "size": 32,
+   "name": "player_select_enabled",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1ac0",
+   "size": 36,
+   "name": "player_select_commit",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1ae8",
+   "size": 44,
+   "name": "immortal_adjust",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1b18",
+   "size": 32,
+   "name": "immortal_draw",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1b38",
+   "size": 52,
+   "name": "immortal_marked",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1b70",
+   "size": 32,
+   "name": "immortal_enabled",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1b90",
+   "size": 36,
+   "name": "immortal_commit",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1bb8",
+   "size": 48,
+   "name": "beam_type_adjust",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1be8",
+   "size": 32,
+   "name": "beam_type_draw",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1c08",
+   "size": 52,
+   "name": "beam_type_marked",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1c40",
+   "size": 32,
+   "name": "beam_type_enabled",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1c60",
+   "size": 36,
+   "name": "beam_type_commit",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1c88",
+   "size": 44,
+   "name": "overdrive_infinity_adjust",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1cb8",
+   "size": 32,
+   "name": "overdrive_infinity_draw",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1cd8",
+   "size": 52,
+   "name": "overdrive_infinity_marked",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1d10",
+   "size": 32,
+   "name": "overdrive_infinity_enabled",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1d30",
+   "size": 36,
+   "name": "overdrive_infinity_commit",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1d58",
+   "size": 48,
+   "name": "camera_view_adjust",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1d88",
+   "size": 36,
+   "name": "camera_view_draw",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1db0",
+   "size": 52,
+   "name": "camera_view_marked",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1de8",
+   "size": 32,
+   "name": "camera_view_enabled",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1e08",
+   "size": 36,
+   "name": "camera_view_commit",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1e30",
+   "size": 84,
+   "name": "default_select",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1e88",
+   "size": 188,
+   "name": "ex_menu_draw_sprite",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1f48",
+   "size": 192,
+   "name": "ex_menu_draw_cursor",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca2008",
+   "size": 104,
+   "name": "ex_menu_init",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca2070",
+   "size": 96,
+   "name": "ex_menu_release",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca20d0",
+   "size": 520,
+   "name": "ex_menu_exec",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca22d8",
+   "size": 608,
+   "name": "ex_menu_disp",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca2538",
+   "size": 100,
+   "name": "ex_menu_create",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca25a0",
+   "size": 16,
+   "name": "ex_menu_get_result",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca25b0",
+   "size": 12,
+   "name": "ex_menu_wire_init",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu_wire.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca25c0",
+   "size": 8,
+   "name": "ex_menu_wire_release",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu_wire.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca25c8",
+   "size": 152,
+   "name": "ex_menu_wire_exec",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu_wire.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca2660",
+   "size": 224,
+   "name": "ex_menu_wire_disp",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu_wire.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca2740",
+   "size": 80,
+   "name": "ex_menu_wire_create",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu_wire.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca2790",
+   "size": 12,
+   "name": "ex_menu_wire_close",
+   "status": "matching",
+   "source_file": "src/overlays/extra/ex_menu_wire.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca27a0",
+   "size": 28,
+   "name": "module_entry",
+   "status": "matching",
+   "source_file": "src/overlays/extra/extra.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca27c0",
+   "size": 68,
+   "name": "ex_load",
+   "status": "matching",
+   "source_file": "src/overlays/extra/extra.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca2808",
+   "size": 44,
+   "name": "ex_unload",
+   "status": "matching",
+   "source_file": "src/overlays/extra/extra.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca2838",
+   "size": 152,
+   "name": "ex_init",
+   "status": "matching",
+   "source_file": "src/overlays/extra/extra.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca28d0",
+   "size": 40,
+   "name": "ex_release",
+   "status": "matching",
+   "source_file": "src/overlays/extra/extra.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca28f8",
+   "size": 740,
+   "name": "ex_exec",
+   "status": "matching",
+   "source_file": "src/overlays/extra/extra.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca2be0",
+   "size": 8,
+   "name": "ex_disp",
+   "status": "matching",
+   "source_file": "src/overlays/extra/extra.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca2be8",
+   "size": 36,
+   "name": "ex_create",
+   "status": "matching",
+   "source_file": "src/overlays/extra/extra.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  }
+ ]
+}

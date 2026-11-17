@@ -1,0 +1,7 @@
+wire_init = 0x00AF6700;
+wire_release = 0x00AF6798;
+wire_exec = 0x00AF67A0;
+wire_disp = 0x00AF6900;
+wire_create = 0x00AF6938;
+wire_textures = 0x00AF6980;
+wire_desc = 0x00B3F300;

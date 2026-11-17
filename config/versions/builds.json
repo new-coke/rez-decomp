@@ -1,0 +1,16 @@
+{
+ "schema": "rez-builds/1",
+ "builds": [
+  {
+   "id": "ps2-us-1.01",
+   "platform": "ps2",
+   "region": "US",
+   "version": "1.01",
+   "serials": [
+    "SLUS-20344"
+   ],
+   "boot_executable": "SLUS_203.44",
+   "executable_sha256": "d3e9c13fb065059f7baf19a45764221848e873cb6362e72d31e291658f1e6821"
+  }
+ ]
+}

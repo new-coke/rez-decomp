@@ -1,0 +1,326 @@
+{
+ "schema": "rez-overlays/1",
+ "build": "ps2-us-1.01",
+ "extract_dir": "build/overlays/ps2-us-1.01",
+ "overlays": [
+  {
+   "module": "segalogo",
+   "path": "TITLE/SEGALOGO.BIN",
+   "load_address": "0x00af6680",
+   "size": 399713,
+   "sha256": "83417b4ca9935d44fe18c2549b6a9be411a3c002a3181b7c637acc97eae031fe",
+   "code": [
+    "0x00af6700",
+    "0x00af6c44"
+   ]
+  },
+  {
+   "module": "autoload",
+   "path": "TITLE/AUTOLOAD.BIN",
+   "load_address": "0x00ca0680",
+   "size": 794137,
+   "sha256": "7228c1e790b872247564080714f5c8372a64a0ddc9f798df2d92df9d7bc736ee",
+   "code": [
+    "0x00ca0700",
+    "0x00ca186c"
+   ]
+  },
+  {
+   "module": "title",
+   "path": "TITLE/TITLE.BIN",
+   "load_address": "0x00af6680",
+   "size": 23550,
+   "sha256": "2476a4515dd64bc694bba92874c6c53092ea53602ae598af4fcf9bcdc5aed8e0",
+   "code": [
+    "0x00af6700",
+    "0x00afa9ac"
+   ]
+  },
+  {
+   "module": "stg20",
+   "path": "STG20/STG20.BIN",
+   "load_address": "0x00af6680",
+   "size": 185973,
+   "sha256": "fa2b5fa616d307e5e1876b360cfaffedf28021bc75d834864cb657a19bce2cd0",
+   "code": [
+    "0x00af6700",
+    "0x00afb0cc"
+   ]
+  },
+  {
+   "module": "stg01",
+   "path": "STG01/STG01.BIN",
+   "load_address": "0x00af6680",
+   "size": 287364,
+   "sha256": "cdf3b91f5edc4dadaa18e7430e8d96f21208d7896e67bf29c20bc2ce40d06957",
+   "code": [
+    "0x00af6700",
+    "0x00b14f0c"
+   ]
+  },
+  {
+   "module": "stg02",
+   "path": "STG02/STG02.BIN",
+   "load_address": "0x00af6680",
+   "size": 453696,
+   "sha256": "7dbeef15ee1655e301fc99335fb2e0b2c09c7e26888bdf9806fb53294c054064",
+   "code": [
+    "0x00af6700",
+    "0x00b21c24"
+   ]
+  },
+  {
+   "module": "stg03",
+   "path": "STG03/STG03.BIN",
+   "load_address": "0x00af6680",
+   "size": 291524,
+   "sha256": "65483fd86c82e6f929d7608ae6611cb43467b7a141aa8ec2546b934cc6274b2e",
+   "code": [
+    "0x00af6700",
+    "0x00b192f4"
+   ]
+  },
+  {
+   "module": "stg04",
+   "path": "STG04/STG04.BIN",
+   "load_address": "0x00af6680",
+   "size": 317512,
+   "sha256": "c5ba691e356fdfc90277533777a969fc5e55b7d8a3bd606dcdbae65229727753",
+   "code": [
+    "0x00af6700",
+    "0x00b2103c"
+   ]
+  },
+  {
+   "module": "stg05",
+   "path": "STG05/STG05.BIN",
+   "load_address": "0x00af6680",
+   "size": 503741,
+   "sha256": "40b22ee06d1a46a1216eb4889bef53f60a19fdf1e515ac3d3fe2019613561631",
+   "code": [
+    "0x00af6700",
+    "0x00b2fd8c"
+   ]
+  },
+  {
+   "module": "stg06",
+   "path": "STG06/STG06.BIN",
+   "load_address": "0x00af6680",
+   "size": 3057,
+   "sha256": "98bd0ac547b35cc90c3b47551002f7dc9ca6b73fa991ed510d29ef5fe768a929",
+   "code": [
+    "0x00af6700",
+    "0x00af6d28"
+   ]
+  },
+  {
+   "module": "stg21",
+   "path": "STG21/STG21.BIN",
+   "load_address": "0x00af6680",
+   "size": 9020,
+   "sha256": "e13559393633e1ec253ffe7a66936824a958273aae8429f66e7a563a07c57c56",
+   "code": [
+    "0x00af6700",
+    "0x00af7ed8"
+   ]
+  },
+  {
+   "module": "stg22",
+   "path": "STG22/STG22.BIN",
+   "load_address": "0x00af6680",
+   "size": 270160,
+   "sha256": "9b204355ea3802b2302bbc64d665103eff2e3ac3f79910c4ca88c4d58c1a636c",
+   "code": [
+    "0x00af6700",
+    "0x00b2a304"
+   ]
+  },
+  {
+   "module": "stg23",
+   "path": "STG23/STG23.BIN",
+   "load_address": "0x00af6680",
+   "size": 110557,
+   "sha256": "c4a1f594288a0e518fc08eb694eadf5e58c00f59d399ae6e4bea6ccbcc5652cc",
+   "code": [
+    "0x00af6700",
+    "0x00b04e94"
+   ]
+  },
+  {
+   "module": "b_earth",
+   "path": "B_EARTH/B_EARTH.BIN",
+   "load_address": "0x00ca0680",
+   "size": 188483,
+   "sha256": "327ac9dd69b1901dfad8f993b68afc2ee2467e7df3544e944952c59a3ea7b688",
+   "code": [
+    "0x00ca0700",
+    "0x00cc8610"
+   ]
+  },
+  {
+   "module": "b_eden",
+   "path": "B_EDEN/B_EDEN.BIN",
+   "load_address": "0x00ca0680",
+   "size": 303427,
+   "sha256": "9d30016ad4919105456e1d9cdcba33d0aad9fd11e35b1952aa444aa99347a267",
+   "code": [
+    "0x00ca0700",
+    "0x00cdab50"
+   ]
+  },
+  {
+   "module": "b_mars",
+   "path": "B_MARS/B_MARS.BIN",
+   "load_address": "0x00ca0680",
+   "size": 184715,
+   "sha256": "38c4c06c3989ec50649e2a3b9708f38b0686f827249793c78a95948f7fcea835",
+   "code": [
+    "0x00ca0700",
+    "0x00cc6c00"
+   ]
+  },
+  {
+   "module": "b_uranus",
+   "path": "B_URANUS/B_URANUS.BIN",
+   "load_address": "0x00ca0680",
+   "size": 213872,
+   "sha256": "0f42678e9571943d41aedfcac2c3c0333d7af7c0c1777c9234255b36ac3fd65a",
+   "code": [
+    "0x00ca0700",
+    "0x00ccbfa4"
+   ]
+  },
+  {
+   "module": "b_venus",
+   "path": "B_VENUS/B_VENUS.BIN",
+   "load_address": "0x00ca0680",
+   "size": 224840,
+   "sha256": "64b89acd06b94cd1670cfe0999f5afc561ba74d2c85e2f081dc18217c53d1ec2",
+   "code": [
+    "0x00ca0700",
+    "0x00cce724"
+   ]
+  },
+  {
+   "module": "ending",
+   "path": "GAMEOVER/ENDING.BIN",
+   "load_address": "0x00af6680",
+   "size": 24383,
+   "sha256": "f1f2d526e34a83a019ebcd0be47166de1602a40a6e154dc09d7e22d8c30a2397",
+   "code": [
+    "0x00af6700",
+    "0x00afb230"
+   ]
+  },
+  {
+   "module": "eresult",
+   "path": "GAMEOVER/ERESULT.BIN",
+   "load_address": "0x00af6680",
+   "size": 4380,
+   "sha256": "830bc27b4ca3f3ae1fe7e08f34c6984c3da41359fc11480019f0e26a10a79c2a",
+   "code": [
+    "0x00af6700",
+    "0x00af7304"
+   ]
+  },
+  {
+   "module": "gameover",
+   "path": "GAMEOVER/GAMEOVER.BIN",
+   "load_address": "0x00af6680",
+   "size": 1865,
+   "sha256": "81f22de5d646484cad02460ff35b87dfdbd872267631b184e3a76ec7aa3ffbed",
+   "code": [
+    "0x00af6700",
+    "0x00af6c04"
+   ]
+  },
+  {
+   "module": "name_e",
+   "path": "GAMEOVER/NAME_E.BIN",
+   "load_address": "0x00af6680",
+   "size": 211184,
+   "sha256": "1149edec9f9fc2369adad4b284e044e6e8bc7cd2ead533dbabb436fb38dfd00e",
+   "code": [
+    "0x00af6700",
+    "0x00af83c0"
+   ]
+  },
+  {
+   "module": "ranking",
+   "path": "GAMEOVER/RANKING.BIN",
+   "load_address": "0x00ca0680",
+   "size": 85365,
+   "sha256": "9dc329e96a0f7b0885e0c97187dfce568fb36d525ad728b32f33d8f6758a046c",
+   "code": [
+    "0x00ca0700",
+    "0x00ca1b5c"
+   ]
+  },
+  {
+   "module": "areacho",
+   "path": "TITLE/AREACHO.BIN",
+   "load_address": "0x00ca0680",
+   "size": 645307,
+   "sha256": "fca81e6826e9dae86f9e327235220cc539f98a5e0ee81f35d401363c3127fcfd",
+   "code": [
+    "0x00ca0700",
+    "0x00ca26dc"
+   ]
+  },
+  {
+   "module": "areasel",
+   "path": "TITLE/AREASEL.BIN",
+   "load_address": "0x00ca0680",
+   "size": 376395,
+   "sha256": "57e1a6df5094ee941a6d854083c9d56797df63c2b29c749179511b8975d5ee24",
+   "code": [
+    "0x00ca0700",
+    "0x00ca1df4"
+   ]
+  },
+  {
+   "module": "autosave",
+   "path": "TITLE/AUTOSAVE.BIN",
+   "load_address": "0x00ca0680",
+   "size": 4207,
+   "sha256": "97a53f215c46dc2522452dea6471bf3ce6107106cea60e54fbcee2ba9a302979",
+   "code": [
+    "0x00ca0700",
+    "0x00ca153c"
+   ]
+  },
+  {
+   "module": "extra",
+   "path": "TITLE/EXTRA.BIN",
+   "load_address": "0x00ca0680",
+   "size": 148123,
+   "sha256": "fb3c22fcd31dd6b86bb59acf21fe6b8cb611e9c55237fb662ca89d3901a9bf75",
+   "code": [
+    "0x00ca0700",
+    "0x00ca2c0c"
+   ]
+  },
+  {
+   "module": "travel",
+   "path": "TITLE/TRAVEL.BIN",
+   "load_address": "0x00ca0680",
+   "size": 1079079,
+   "sha256": "3a636e930c8b745be035a0d601987a3f1617aac964ff23c379979514f851ff7c",
+   "code": [
+    "0x00ca0700",
+    "0x00ca118c"
+   ]
+  },
+  {
+   "module": "wire",
+   "path": "TITLE/WIRE.BIN",
+   "load_address": "0x00af6680",
+   "size": 298141,
+   "sha256": "f95b1cdb379fff5d6ad3a47409a9e21ff4425bc55a911aa285c73a57b5805af5",
+   "code": [
+    "0x00af6700",
+    "0x00af695c"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,226 @@
+{
+ "schema": "rez-function-inventory/1",
+ "build": "ps2-us-1.01--eresult",
+ "functions": [
+  {
+   "address": "0x00af6700",
+   "size": 28,
+   "name": "module_entry",
+   "status": "matching",
+   "source_file": "src/overlays/eresult/eresult.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af6720",
+   "size": 308,
+   "name": "end_result_init",
+   "status": "matching",
+   "source_file": "src/overlays/eresult/eresult.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af6858",
+   "size": 12,
+   "name": "end_result_release",
+   "status": "matching",
+   "source_file": "src/overlays/eresult/eresult.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af6868",
+   "size": 264,
+   "name": "end_result_exec",
+   "status": "matching",
+   "source_file": "src/overlays/eresult/eresult.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af6970",
+   "size": 8,
+   "name": "end_result_disp",
+   "status": "matching",
+   "source_file": "src/overlays/eresult/eresult.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af6978",
+   "size": 36,
+   "name": "end_result_create",
+   "status": "matching",
+   "source_file": "src/overlays/eresult/eresult.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af69a0",
+   "size": 156,
+   "name": "er_bg_draw_rects",
+   "status": "matching",
+   "source_file": "src/overlays/eresult/eresult.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af6a40",
+   "size": 124,
+   "name": "er_bg_disp",
+   "status": "matching",
+   "source_file": "src/overlays/eresult/eresult.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af6ac0",
+   "size": 52,
+   "name": "er_bg_create",
+   "status": "matching",
+   "source_file": "src/overlays/eresult/eresult.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af6af8",
+   "size": 88,
+   "name": "er_result_exec",
+   "status": "matching",
+   "source_file": "src/overlays/eresult/eresult.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af6b50",
+   "size": 400,
+   "name": "er_result_draw_rate",
+   "status": "matching",
+   "source_file": "src/overlays/eresult/eresult.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af6ce0",
+   "size": 496,
+   "name": "er_result_disp",
+   "status": "matching",
+   "source_file": "src/overlays/eresult/eresult.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af6ed0",
+   "size": 56,
+   "name": "er_result_init",
+   "status": "matching",
+   "source_file": "src/overlays/eresult/eresult.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af6f08",
+   "size": 36,
+   "name": "er_result_create",
+   "status": "matching",
+   "source_file": "src/overlays/eresult/eresult.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af6f30",
+   "size": 20,
+   "name": "er_result_is_done",
+   "status": "matching",
+   "source_file": "src/overlays/eresult/eresult.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af6f48",
+   "size": 360,
+   "name": "er_score_draw_number",
+   "status": "matching",
+   "source_file": "src/overlays/eresult/eresult.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af70b0",
+   "size": 180,
+   "name": "er_score_exec",
+   "status": "matching",
+   "source_file": "src/overlays/eresult/eresult.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af7168",
+   "size": 292,
+   "name": "er_score_disp",
+   "status": "matching",
+   "source_file": "src/overlays/eresult/eresult.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af7290",
+   "size": 76,
+   "name": "er_score_init",
+   "status": "matching",
+   "source_file": "src/overlays/eresult/eresult.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00af72e0",
+   "size": 36,
+   "name": "er_score_create",
+   "status": "matching",
+   "source_file": "src/overlays/eresult/eresult.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  }
+ ]
+}

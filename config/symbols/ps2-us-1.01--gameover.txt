@@ -1,0 +1,9 @@
+module_entry = 0x00AF6700;
+gameover_init = 0x00AF6720;
+gameover_release = 0x00AF67A8;
+gameover_exec = 0x00AF67B0;
+gameover_disp = 0x00AF6908;
+gameover_create = 0x00AF6BE0;
+gameover_desc = 0x00AF6DA8;
+message = 0x00AF6D00;
+gameover_texts = 0x00AF6C80;

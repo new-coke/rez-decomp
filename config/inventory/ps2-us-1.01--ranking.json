@@ -1,0 +1,336 @@
+{
+ "schema": "rez-function-inventory/1",
+ "build": "ps2-us-1.01--ranking",
+ "functions": [
+  {
+   "address": "0x00ca0700",
+   "size": 104,
+   "name": "box_node_cb",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/ranking_box.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0768",
+   "size": 256,
+   "name": "box_init",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/ranking_box.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0868",
+   "size": 8,
+   "name": "box_release",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/ranking_box.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0870",
+   "size": 160,
+   "name": "box_exec",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/ranking_box.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0910",
+   "size": 296,
+   "name": "box_disp",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/ranking_box.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0a38",
+   "size": 92,
+   "name": "box_create",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/ranking_box.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0a98",
+   "size": 164,
+   "name": "bar_node_cb",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/ranking_bar.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0b40",
+   "size": 496,
+   "name": "bar_init",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/ranking_bar.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0d30",
+   "size": 44,
+   "name": "bar_release",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/ranking_bar.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0d60",
+   "size": 44,
+   "name": "bar_exec",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/ranking_bar.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca0d90",
+   "size": 672,
+   "name": "bar_disp",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/ranking_bar.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1030",
+   "size": 124,
+   "name": "bar_create",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/ranking_bar.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca10b0",
+   "size": 84,
+   "name": "bar_play",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/ranking_bar.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1108",
+   "size": 8,
+   "name": "demo_camera_node_init",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/ranking_bar.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1110",
+   "size": 188,
+   "name": "demo_camera_node_update",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/ranking_bar.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca11d0",
+   "size": 8,
+   "name": "demo_camera_node_release",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/ranking_bar.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca11d8",
+   "size": 260,
+   "name": "demo_camera_init",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/ranking_bar.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01+as2.10",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca12e0",
+   "size": 8,
+   "name": "demo_camera_release",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/ranking_bar.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca12e8",
+   "size": 628,
+   "name": "demo_camera_exec",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/ranking_bar.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01+asdtls",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1560",
+   "size": 8,
+   "name": "demo_camera_disp",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/ranking_bar.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1568",
+   "size": 36,
+   "name": "demo_camera_create",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/ranking_bar.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1590",
+   "size": 8,
+   "name": "demo_camera_get_page",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/ranking_bar.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1598",
+   "size": 28,
+   "name": "demo_camera_request_page",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/ranking_bar.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca15b8",
+   "size": 28,
+   "name": "module_entry",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/score_ranking.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca15d8",
+   "size": 116,
+   "name": "table_is_available",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/score_ranking.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1650",
+   "size": 316,
+   "name": "score_ranking_init",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/score_ranking.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1790",
+   "size": 44,
+   "name": "score_ranking_release",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/score_ranking.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca17c0",
+   "size": 688,
+   "name": "score_ranking_exec",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/score_ranking.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1a70",
+   "size": 196,
+   "name": "score_ranking_disp",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/score_ranking.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  },
+  {
+   "address": "0x00ca1b38",
+   "size": 36,
+   "name": "score_ranking_create",
+   "status": "matching",
+   "source_file": "src/overlays/ranking/score_ranking.c",
+   "match": {
+    "compiler": "ee-gcc2.9-991111-01",
+    "flags": "-O2 -G0 -DVERSION_US"
+   }
+  }
+ ]
+}

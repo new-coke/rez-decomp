@@ -1,0 +1,29 @@
+# Game data: never commit it
+/game/
+*.iso
+*.bin
+*.cue
+*.gdi
+*.cdi
+*.chd
+*.elf
+*.zip
+*.7z
+SLUS_*
+*.CVM
+*.BIN
+
+# Build output and the toolchain
+/build/
+/.tools/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Editors and OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
