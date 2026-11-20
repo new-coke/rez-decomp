@@ -4,6 +4,8 @@ A matching decompilation of Rez (United Game Artists / Sega, 2001) for the PlayS
 original compiler builds this source, and the linker joins it with the retail data. The result
 matches the executable and its 29 code overlays byte for byte.
 
+Note: 20-11-26 - Porting Rez as Kandinsky to PC has made me realised a lot of the code here is subpar to work with, I'll be backporting it to be better while maintaining matching! 
+
 This repository holds no game code, data or assets. You need your own copy of the game to build
 it.
 
